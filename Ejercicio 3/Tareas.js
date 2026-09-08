@@ -5,7 +5,7 @@ import { CrearTarea } from "./CrearTarea.js";
 const tarea=[];
 let op1=0,op2=0
 
-let ordenamiento=1;
+
 console.log("Por defecto el orden en el que se muestran");
 console.log("las tareas es por fecha de creacion");
 do{
