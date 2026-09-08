@@ -6,50 +6,8 @@ const tarea=[];
 let op1=0,op2=0
 
 let ordenamiento=1;
-
-
-
-//CONFIGURACION
-function Configuracion(){
-console.log("            ");
-let opc;
-do{
-  console.log("CONFIGURACION");
-        console.log("[1] Orden alfabetico ascendente");
-        console.log("[2] Fecha de vencimiento ascendente");
-        console.log("[3] Fecha de creacion ascendente");
-        console.log("[0] Volver");
- opc=rl.questionInt("Ingrese una opcion:  ");
-switch(opc){
-    case 1:{
-        ordenamiento=1;
-        console.log("Ordenamiento cambiado a orden alfabetico ascendente");
-        break;
-    }
-    case 2:{
-        ordenamiento=2;
-        console.log("Ordenamiento cambiado a fecha de vencimiento ascendente");
-        break;
-    }
-    case 3:{
-        ordenamiento=3;
-        console.log("Ordenamiento cambiado a fecha de creacion ascendente");
-        break;
-    }
-    case 0:{
-        break;
-    }
-    default:{
-        console.log("Valor invalido");
-        console.log("ingrese una de las opciones en pantalla");
-        break;
-    }
-    }
-}while(opc!=0);
-}
-
-
-
+console.log("Por defecto el orden en el que se muestran");
+console.log("las tareas es por fecha de creacion");
 do{
     //MENU PRINCIPAL
     console.log("              ");
